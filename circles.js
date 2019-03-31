@@ -1,3 +1,6 @@
+document.querySelector('button').addEventListener('click', function() {
+  var context = new AudioContext();
+
 var keyData = {    
 			q: {
 				sound: new Howl({
@@ -156,7 +159,7 @@ var keyData = {
 				color: '#2c3e50'
 			}
 		}
-
+}
 		var circles = [];
 		
 		function onKeyDown(event) {
